@@ -1,0 +1,336 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp',
+1 verbose cli   'browserify',
+1 verbose cli   'babelify',
+1 verbose cli   'vinyl-source-stream',
+1 verbose cli   'babel-preset-es2015',
+1 verbose cli   'babel-preset-react' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData gulp
+8 silly fetchPackageMetaData browserify
+9 silly fetchPackageMetaData babelify
+10 silly fetchPackageMetaData vinyl-source-stream
+11 silly fetchPackageMetaData babel-preset-es2015
+12 silly fetchPackageMetaData babel-preset-react
+13 silly fetchNamedPackageData gulp
+14 silly mapToRegistry name gulp
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'gulp',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   escapedName: 'gulp',
+17 silly mapToRegistry   name: 'gulp',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/gulp
+19 silly fetchNamedPackageData browserify
+20 silly mapToRegistry name browserify
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'browserify',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'browserify',
+23 silly mapToRegistry   name: 'browserify',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/browserify
+25 silly fetchNamedPackageData babelify
+26 silly mapToRegistry name babelify
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'babelify',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'babelify',
+29 silly mapToRegistry   name: 'babelify',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/babelify
+31 silly fetchNamedPackageData vinyl-source-stream
+32 silly mapToRegistry name vinyl-source-stream
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'vinyl-source-stream',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'vinyl-source-stream',
+35 silly mapToRegistry   name: 'vinyl-source-stream',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/vinyl-source-stream
+37 silly fetchNamedPackageData babel-preset-es2015
+38 silly mapToRegistry name babel-preset-es2015
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'babel-preset-es2015',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'babel-preset-es2015',
+41 silly mapToRegistry   name: 'babel-preset-es2015',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-es2015
+43 silly fetchNamedPackageData babel-preset-react
+44 silly mapToRegistry name babel-preset-react
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'babel-preset-react',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'babel-preset-react',
+47 silly mapToRegistry   name: 'babel-preset-react',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+49 verbose request uri https://registry.npmjs.org/gulp
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 19:16:40
+52 verbose request id e14074620a8bdc21
+53 verbose etag W/"58d90569-1d023"
+54 verbose lastModified Mon, 27 Mar 2017 12:28:25 GMT
+55 http request GET https://registry.npmjs.org/gulp
+56 verbose request uri https://registry.npmjs.org/babelify
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 19:16:40
+59 verbose etag W/"58a5fe9f-764c"
+60 verbose lastModified Thu, 16 Feb 2017 19:33:51 GMT
+61 http request GET https://registry.npmjs.org/babelify
+62 verbose request uri https://registry.npmjs.org/vinyl-source-stream
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 19:16:40
+65 verbose etag W/"58c6f94e-2d11"
+66 verbose lastModified Mon, 13 Mar 2017 19:55:58 GMT
+67 http request GET https://registry.npmjs.org/vinyl-source-stream
+68 verbose request uri https://registry.npmjs.org/babel-preset-es2015
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 19:16:40
+71 verbose etag W/"58d8a61d-f8e6"
+72 verbose lastModified Mon, 27 Mar 2017 05:41:49 GMT
+73 http request GET https://registry.npmjs.org/babel-preset-es2015
+74 verbose request uri https://registry.npmjs.org/babel-preset-react
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 19:16:40
+77 verbose etag W/"58d426df-6a68"
+78 verbose lastModified Thu, 23 Mar 2017 19:49:51 GMT
+79 http request GET https://registry.npmjs.org/babel-preset-react
+80 verbose request uri https://registry.npmjs.org/browserify
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 19:16:40
+83 verbose etag W/"58d705c4-d8080"
+84 verbose lastModified Sun, 26 Mar 2017 00:05:24 GMT
+85 http request GET https://registry.npmjs.org/browserify
+86 http 304 https://registry.npmjs.org/babelify
+87 verbose headers { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+87 verbose headers   via: '1.1 varnish',
+87 verbose headers   'cache-control': 'max-age=300',
+87 verbose headers   etag: 'W/"58a5fe9f-764c"',
+87 verbose headers   age: '153',
+87 verbose headers   connection: 'keep-alive',
+87 verbose headers   'x-served-by': 'cache-bma7035-BMA',
+87 verbose headers   'x-cache': 'HIT',
+87 verbose headers   'x-cache-hits': '1',
+87 verbose headers   'x-timer': 'S1490631401.350929,VS0,VE0',
+87 verbose headers   vary: 'Accept-Encoding' }
+88 silly get cb [ 304,
+88 silly get   { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+88 silly get     via: '1.1 varnish',
+88 silly get     'cache-control': 'max-age=300',
+88 silly get     etag: 'W/"58a5fe9f-764c"',
+88 silly get     age: '153',
+88 silly get     connection: 'keep-alive',
+88 silly get     'x-served-by': 'cache-bma7035-BMA',
+88 silly get     'x-cache': 'HIT',
+88 silly get     'x-cache-hits': '1',
+88 silly get     'x-timer': 'S1490631401.350929,VS0,VE0',
+88 silly get     vary: 'Accept-Encoding' } ]
+89 verbose etag https://registry.npmjs.org/babelify from cache
+90 verbose get saving babelify to C:\Users\durodxana\AppData\Roaming\npm-cache\registry.npmjs.org\babelify\.cache.json
+91 verbose correctMkdir C:\Users\durodxana\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+92 http 304 https://registry.npmjs.org/babel-preset-es2015
+93 verbose headers { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+93 verbose headers   via: '1.1 varnish',
+93 verbose headers   'cache-control': 'max-age=300',
+93 verbose headers   etag: 'W/"58d8a61d-f8e6"',
+93 verbose headers   age: '50',
+93 verbose headers   connection: 'keep-alive',
+93 verbose headers   'x-served-by': 'cache-bma7020-BMA',
+93 verbose headers   'x-cache': 'HIT',
+93 verbose headers   'x-cache-hits': '3',
+93 verbose headers   'x-timer': 'S1490631401.363197,VS0,VE0',
+93 verbose headers   vary: 'Accept-Encoding' }
+94 silly get cb [ 304,
+94 silly get   { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+94 silly get     via: '1.1 varnish',
+94 silly get     'cache-control': 'max-age=300',
+94 silly get     etag: 'W/"58d8a61d-f8e6"',
+94 silly get     age: '50',
+94 silly get     connection: 'keep-alive',
+94 silly get     'x-served-by': 'cache-bma7020-BMA',
+94 silly get     'x-cache': 'HIT',
+94 silly get     'x-cache-hits': '3',
+94 silly get     'x-timer': 'S1490631401.363197,VS0,VE0',
+94 silly get     vary: 'Accept-Encoding' } ]
+95 verbose etag https://registry.npmjs.org/babel-preset-es2015 from cache
+96 verbose get saving babel-preset-es2015 to C:\Users\durodxana\AppData\Roaming\npm-cache\registry.npmjs.org\babel-preset-es2015\.cache.json
+97 verbose correctMkdir C:\Users\durodxana\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+98 http 304 https://registry.npmjs.org/babel-preset-react
+99 verbose headers { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+99 verbose headers   via: '1.1 varnish',
+99 verbose headers   'cache-control': 'max-age=300',
+99 verbose headers   etag: 'W/"58d426df-6a68"',
+99 verbose headers   age: '291',
+99 verbose headers   connection: 'keep-alive',
+99 verbose headers   'x-served-by': 'cache-bma7023-BMA',
+99 verbose headers   'x-cache': 'HIT',
+99 verbose headers   'x-cache-hits': '3',
+99 verbose headers   'x-timer': 'S1490631401.369208,VS0,VE0',
+99 verbose headers   vary: 'Accept-Encoding' }
+100 silly get cb [ 304,
+100 silly get   { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     'cache-control': 'max-age=300',
+100 silly get     etag: 'W/"58d426df-6a68"',
+100 silly get     age: '291',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-bma7023-BMA',
+100 silly get     'x-cache': 'HIT',
+100 silly get     'x-cache-hits': '3',
+100 silly get     'x-timer': 'S1490631401.369208,VS0,VE0',
+100 silly get     vary: 'Accept-Encoding' } ]
+101 verbose etag https://registry.npmjs.org/babel-preset-react from cache
+102 verbose get saving babel-preset-react to C:\Users\durodxana\AppData\Roaming\npm-cache\registry.npmjs.org\babel-preset-react\.cache.json
+103 verbose correctMkdir C:\Users\durodxana\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+104 http 304 https://registry.npmjs.org/browserify
+105 verbose headers { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+105 verbose headers   via: '1.1 varnish',
+105 verbose headers   'cache-control': 'max-age=300',
+105 verbose headers   etag: 'W/"58d705c4-d8080"',
+105 verbose headers   age: '153',
+105 verbose headers   connection: 'keep-alive',
+105 verbose headers   'x-served-by': 'cache-bma7032-BMA',
+105 verbose headers   'x-cache': 'HIT',
+105 verbose headers   'x-cache-hits': '1',
+105 verbose headers   'x-timer': 'S1490631401.374292,VS0,VE0',
+105 verbose headers   vary: 'Accept-Encoding' }
+106 silly get cb [ 304,
+106 silly get   { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+106 silly get     via: '1.1 varnish',
+106 silly get     'cache-control': 'max-age=300',
+106 silly get     etag: 'W/"58d705c4-d8080"',
+106 silly get     age: '153',
+106 silly get     connection: 'keep-alive',
+106 silly get     'x-served-by': 'cache-bma7032-BMA',
+106 silly get     'x-cache': 'HIT',
+106 silly get     'x-cache-hits': '1',
+106 silly get     'x-timer': 'S1490631401.374292,VS0,VE0',
+106 silly get     vary: 'Accept-Encoding' } ]
+107 verbose etag https://registry.npmjs.org/browserify from cache
+108 verbose get saving browserify to C:\Users\durodxana\AppData\Roaming\npm-cache\registry.npmjs.org\browserify\.cache.json
+109 verbose correctMkdir C:\Users\durodxana\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+110 http 304 https://registry.npmjs.org/gulp
+111 verbose headers { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+111 verbose headers   via: '1.1 varnish',
+111 verbose headers   'cache-control': 'max-age=300',
+111 verbose headers   etag: 'W/"58d90569-1d023"',
+111 verbose headers   age: '9',
+111 verbose headers   connection: 'keep-alive',
+111 verbose headers   'x-served-by': 'cache-bma7031-BMA',
+111 verbose headers   'x-cache': 'HIT',
+111 verbose headers   'x-cache-hits': '1',
+111 verbose headers   'x-timer': 'S1490631401.378764,VS0,VE0',
+111 verbose headers   vary: 'Accept-Encoding' }
+112 silly get cb [ 304,
+112 silly get   { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+112 silly get     via: '1.1 varnish',
+112 silly get     'cache-control': 'max-age=300',
+112 silly get     etag: 'W/"58d90569-1d023"',
+112 silly get     age: '9',
+112 silly get     connection: 'keep-alive',
+112 silly get     'x-served-by': 'cache-bma7031-BMA',
+112 silly get     'x-cache': 'HIT',
+112 silly get     'x-cache-hits': '1',
+112 silly get     'x-timer': 'S1490631401.378764,VS0,VE0',
+112 silly get     vary: 'Accept-Encoding' } ]
+113 verbose etag https://registry.npmjs.org/gulp from cache
+114 verbose get saving gulp to C:\Users\durodxana\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+115 verbose correctMkdir C:\Users\durodxana\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+116 http 304 https://registry.npmjs.org/vinyl-source-stream
+117 verbose headers { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+117 verbose headers   via: '1.1 varnish',
+117 verbose headers   'cache-control': 'max-age=300',
+117 verbose headers   etag: 'W/"58c6f94e-2d11"',
+117 verbose headers   age: '27',
+117 verbose headers   connection: 'keep-alive',
+117 verbose headers   'x-served-by': 'cache-bma7024-BMA',
+117 verbose headers   'x-cache': 'HIT',
+117 verbose headers   'x-cache-hits': '2',
+117 verbose headers   'x-timer': 'S1490631401.463683,VS0,VE0',
+117 verbose headers   vary: 'Accept-Encoding' }
+118 silly get cb [ 304,
+118 silly get   { date: 'Mon, 27 Mar 2017 16:16:41 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     'cache-control': 'max-age=300',
+118 silly get     etag: 'W/"58c6f94e-2d11"',
+118 silly get     age: '27',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-bma7024-BMA',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '2',
+118 silly get     'x-timer': 'S1490631401.463683,VS0,VE0',
+118 silly get     vary: 'Accept-Encoding' } ]
+119 verbose etag https://registry.npmjs.org/vinyl-source-stream from cache
+120 verbose get saving vinyl-source-stream to C:\Users\durodxana\AppData\Roaming\npm-cache\registry.npmjs.org\vinyl-source-stream\.cache.json
+121 verbose correctMkdir C:\Users\durodxana\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+122 silly install normalizeTree
+123 silly loadCurrentTree Finishing
+124 silly loadIdealTree Starting
+125 silly install loadIdealTree
+126 silly cloneCurrentTree Starting
+127 silly install cloneCurrentTreeToIdealTree
+128 silly cloneCurrentTree Finishing
+129 silly loadShrinkwrap Starting
+130 silly install loadShrinkwrap
+131 silly loadShrinkwrap Finishing
+132 silly loadAllDepsIntoIdealTree Starting
+133 silly install loadAllDepsIntoIdealTree
+134 silly rollbackFailedOptional Starting
+135 silly rollbackFailedOptional Finishing
+136 silly runTopLevelLifecycles Finishing
+137 silly install printInstalled
+138 verbose stack Error: Refusing to install gulp as a dependency of itself
+138 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:53:14)
+138 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+138 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+138 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+138 verbose stack     at Array.forEach (native)
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+138 verbose stack     at Array.forEach (native)
+138 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+139 verbose cwd D:\Projects\JS\React\Gulp
+140 error Windows_NT 6.3.9600
+141 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "gulp" "browserify" "babelify" "vinyl-source-stream" "babel-preset-es2015" "babel-preset-react"
+142 error node v6.10.1
+143 error npm  v3.10.10
+144 error code ENOSELF
+145 error Refusing to install gulp as a dependency of itself
+146 error If you need help, you may report this error at:
+146 error     <https://github.com/npm/npm/issues>
+147 verbose exit [ 1, true ]
